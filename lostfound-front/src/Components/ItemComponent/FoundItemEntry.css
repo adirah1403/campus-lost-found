@@ -1,0 +1,133 @@
+/* Page background */
+.page-background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Form card styling */
+.form-card {
+  width: 600px;        
+  max-width: 95%;
+  background: white;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Form heading */
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #4721a0;
+}
+
+/* Error text styling */
+.error-text {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* Labels general style */
+.input-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  font-size: 15px;
+}
+
+/* Field-specific colors and label distinction */
+
+/* Found Item Name */
+input[name="foundItemName"] {
+  border: 2px solid #ff6b6b;
+  background-color: #ffe5e5;
+  padding: 8px 10px;
+  border-radius: 6px;
+  width: 100%;
+}
+label[for="foundItemName"] {
+  color: #ff3b3b;  /* Bright red label */
+}
+
+/* Category */
+input[name="category"] {
+  border: 2px solid #4dabf7;
+  background-color: #e7f5ff;
+  padding: 8px 10px;
+  border-radius: 6px;
+  width: 100%;
+}
+label[for="category"] {
+  color: #1c7ed6;  /* Blue label */
+}
+
+/* Color */
+input[name="color"] {
+  border: 2px solid #51cf66;
+  background-color: #e6fcf5;
+  padding: 8px 10px;
+  border-radius: 6px;
+  width: 100%;
+}
+label[for="color"] {
+  color: #2b8a3e;  /* Green label */
+}
+
+/* Brand */
+input[name="brand"] {
+  border: 2px solid #fcc419;
+  background-color: #fff9e6;
+  padding: 8px 10px;
+  border-radius: 6px;
+  width: 100%;
+}
+label[for="brand"] {
+  color: #e67700;  /* Orange label */
+}
+
+/* Location */
+input[name="location"] {
+  border: 2px solid #7950f2;
+  background-color: #f3f0ff;
+  padding: 8px 10px;
+  border-radius: 6px;
+  width: 100%;
+}
+label[for="location"] {
+  color: #5f3dc4;  /* Purple label */
+}
+
+/* Found Date */
+input[name="foundDate"] {
+  border: 2px solid #f06595;
+  background-color: #fff0f6;
+  padding: 8px 10px;
+  border-radius: 6px;
+  width: 100%;
+}
+label[for="foundDate"] {
+  color: #d6336c;  /* Pink/Magenta label */
+}
+
+/* Submit button */
+button[type="submit"] {
+  background-color: #4721a0;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 20px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #371a80;
+  transform: translateY(-2px);
+}

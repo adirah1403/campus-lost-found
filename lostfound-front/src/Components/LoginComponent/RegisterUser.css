@@ -1,0 +1,84 @@
+/* Background */
+.register-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Full center container */
+.form-container {
+  width: 100%;
+  max-width: 900px; /* BIG WIDTH */
+}
+
+/* Card Box */
+.form-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  width: 100%;
+}
+
+/* Title */
+.form-card h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* Inputs */
+.form-control {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding-left: 12px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.form-control:focus {
+  border-color: #3b82f6;
+
+  outline: none;
+}
+
+/* Form-group spacing */
+.form-group {
+  margin-bottom: 18px;
+}
+
+/* Error Text */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Submit Button */
+.btn-submit {
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-submit:hover {
+  background: #1e40af;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .form-card {
+    padding: 25px;
+  }
+}

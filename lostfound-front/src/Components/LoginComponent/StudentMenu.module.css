@@ -1,0 +1,225 @@
+/* Root page wrapper — THIS FIXES THE SHIFT */
+.pagebody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* HEADER */
+.header {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.menuContainer {
+  margin-top: 30px;
+}
+
+/* Top white navigation panel */
+.page {
+  margin-top: 50px;
+  border-radius: 20px;
+  min-height: 100px;
+  background-color: #ffffff;
+  width: 1300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* MAIN BUTTON ROW */
+.menuRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+/* Logo */
+.logoBox {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* WRAPPER FOR EACH BUTTON */
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* MAIN BUTTON STYLE */
+.menuBtn {
+  width: 180px;
+  height: 50px;
+  background: #ffffff;
+  color: #532fa3;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.menuBtn:hover {
+  background: #532fa3;
+  transform: scale(1.03);
+  color: white;
+}
+
+.leftSec {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+/* SUBMENU */
+.subMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+  width: 180px;
+}
+
+.subMenuBtn {
+  background: #f1e8ff;
+  border: 1px solid #d2c4fa;
+  border-radius: 8px;
+  padding: 9px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.subMenuBtn:hover {
+  background: #e3d5ff;
+}
+
+/* LOGOUT */
+.logoutBtn {
+  width: 180px;
+  height: 50px;
+  background: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.logoutBtn:hover {
+  background: #c64543;
+  transform: scale(1.03);
+}
+
+/* STUDENT BODY SECTION */
+.StudentMenubody {
+  width: 1300px;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 20px;
+  margin-top: 20px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+/* LEFT CARD */
+.leftCard {
+  width: 60%;
+  padding: 35px;
+  border-radius: 22px;
+  text-align: left;
+  height: 500px;
+}
+
+/* TEXT */
+.title {
+  margin-top: 50px;
+  font-size: 45px;
+  font-weight: 700;
+  color: #1b2433;
+}
+
+.description {
+  font-size: 20px;
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* BUTTONS */
+.buttonRow {
+  display: flex;
+  gap: 12px;
+}
+
+.primaryBtn {
+  background: #2b6cb0;
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primaryBtn:hover {
+  background: #205b93;
+}
+
+.secondaryBtn {
+  background: #ffffff;
+  color: #2b6cb0;
+  border: 2px solid #2b6cb0;
+  padding: 12px 22px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.secondaryBtn:hover {
+  background: #e8f1ff;
+}
+
+/* RIGHT IMAGE */
+.rightImageBox {
+  display: flex;
+  align-items: center;
+}
+
+.rightImage {
+  width: 420px;
+  height: 400px;
+  object-fit: contain;
+}

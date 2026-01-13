@@ -1,0 +1,214 @@
+/* PAGE BACKGROUND */
+.pagebody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #0f172a, #020617);
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+/* TOP NAV CONTAINER */
+.page {
+  margin-top: 40px;
+  border-radius: 22px;
+  background-color: #ffffff;
+  width: 1300px;
+  min-height: 110px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* MENU ROW */
+.menuContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menuRow {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 25px 20px;
+}
+
+/* LOGO */
+.logoBox {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.logo {
+  height: 65px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* MENU BUTTONS */
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuBtn {
+  width: 180px;
+  height: 48px;
+  background: #ffffff;
+  color: #4f46e5;
+  border: 1px solid #dcdcff;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.menuBtn:hover {
+  background: #4f46e5;
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 15px rgba(79, 70, 229, 0.35);
+}
+
+.leftSec {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 17px;
+}
+
+/* SUB MENU */
+.subMenu {
+  margin-top: 8px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.subMenuBtn {
+  background: #eef2ff;
+  border: 1px solid #c7d2fe;
+  border-radius: 10px;
+  padding: 9px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.25s;
+}
+
+.subMenuBtn:hover {
+  background: #e0e7ff;
+}
+
+/* LOGOUT */
+.logoutBtn {
+  width: 180px;
+  height: 48px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.logoutBtn:hover {
+  background: #dc2626;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 15px rgba(239, 68, 68, 0.35);
+}
+
+/* DASHBOARD BODY */
+.AdminMenubody {
+  width: 1300px;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 35px 40px;
+  margin-top: 25px;
+  background: white;
+  border-radius: 22px;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* LEFT CONTENT */
+.leftCard {
+  width: 60%;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.description {
+  font-size: 18px;
+  color: #475569;
+  line-height: 1.6;
+  margin: 18px 0 28px;
+}
+
+.buttonRow {
+  display: flex;
+  gap: 14px;
+}
+
+.primaryBtn {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 26px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.primaryBtn:hover {
+  background: #4338ca;
+}
+
+.secondaryBtn {
+  background: white;
+  color: #4f46e5;
+  border: 2px solid #4f46e5;
+  padding: 12px 26px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.secondaryBtn:hover {
+  background: #eef2ff;
+}
+
+/* RIGHT IMAGE */
+.rightImageBox {
+  display: flex;
+  justify-content: center;
+}
+
+.rightImage {
+  width: 400px;
+  height: auto;
+  object-fit: contain;
+}

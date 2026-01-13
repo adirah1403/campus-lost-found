@@ -1,0 +1,74 @@
+/* Page Background */
+.smart-container {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #cfd9ff, #e7f0ff);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Main Card */
+.smart-card {
+  width: 85%;
+  max-width: 900px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  padding: 30px 35px 40px;
+}
+
+/* Heading */
+.smart-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+
+/* Search Bar */
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 35px;
+}
+
+.search-box input {
+  width: 60%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #3b82f6;
+  outline: none;
+}
+
+.search-box input:focus {
+  border-color: #2563eb;
+}
+
+/* Search Button */
+.search-box button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 26px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.search-box button:hover {
+  background: #1e40af;
+}
+
+/* Section Headings */
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin: 20px 0 10px;
+}

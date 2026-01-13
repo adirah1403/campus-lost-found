@@ -1,0 +1,39 @@
+.match-container {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.match-card {
+  width: 95%;
+  max-width: 1100px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,.15);
+}
+
+.match-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.match-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.match-card th, .match-card td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.match-card thead {
+  background: #2563eb;
+  color: white;
+}
+
+.match-card tbody tr:hover {
+  background: #f1f5f9;
+}

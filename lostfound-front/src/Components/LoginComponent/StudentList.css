@@ -1,0 +1,154 @@
+.student-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 40px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.student-card {
+  width: 100%;
+  max-width: 1100px;
+  background: linear-gradient(135deg, #ffffff, #f9fbff);
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+.student-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #2c3e50;
+  letter-spacing: 0.5px;
+}
+
+/* Table */
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Header */
+.student-table th {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #ffffff;
+  padding: 14px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Body */
+.student-table td {
+  padding: 14px;
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Zebra rows */
+.student-table tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* Row hover */
+.student-table tbody tr:hover {
+  background-color: #eef2ff;
+  transition: background-color 0.2s ease;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(239, 68, 68, 0.35);
+  transition: all 0.25s ease;
+}
+
+.delete-btn:hover {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(239, 68, 68, 0.45);
+}
+
+.delete-btn:active {
+  transform: scale(0.95);
+}
+
+/* States */
+.no-data,
+.loading {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .student-table th,
+  .student-table td {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .delete-btn {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+
+  .student-title {
+    font-size: 22px;
+  }
+}
+
+/* 🔧 Inline status message (NEW FEATURE) */
+.status-message {
+  margin-bottom: 15px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-align: center;
+  animation: fadeSlide 0.3s ease;
+}
+
+.status-message.success {
+  background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+  color: #166534;
+  border: 1px solid #22c55e;
+}
+
+.status-message.error {
+  background: linear-gradient(135deg, #fee2e2, #fecaca);
+  color: #991b1b;
+  border: 1px solid #ef4444;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

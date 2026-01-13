@@ -1,0 +1,41 @@
+.analysis-container {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.analysis-card {
+  width: 95%;
+  max-width: 1000px;
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,.15);
+}
+
+.analysis-card h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.stat-box {
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+
+.stat-box h3 {
+  font-size: 36px;
+}
+
+.lost { background: #ef4444; }
+.found { background: #3b82f6; }
+.matched { background: #22c55e; }
